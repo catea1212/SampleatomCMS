@@ -8,7 +8,7 @@ $dbc = mysqli_connect('localhost', 'dev', '1', 'atomcms') OR die('connection fai
 define('D_TEMPLATE', 'template');
 #Functions: 
 include('functions/data.php'); //so function data_page ist avaiable
-
+include ('functions/template.php'); //functions for page template
 
 #variable,beginns with $
 $site_title='AtomCMS 2.0';
